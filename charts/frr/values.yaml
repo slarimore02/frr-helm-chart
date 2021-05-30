@@ -8,7 +8,7 @@ frr:
     bgp_listen_range: 10.206.0.0/16
 
 containers:
-  hostPort: yes
+  hostPort: true
 
 replicaCount: 1
 
