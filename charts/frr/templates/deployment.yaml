@@ -34,6 +34,7 @@ spec:
           ports:
             - name: bgp
               containerPort: 179
+              {{ if eq .Values.containers.hostPort "yes" }}hostPort: 179{{ end }}
               protocol: TCP
           livenessProbe:
             tcpSocket:
