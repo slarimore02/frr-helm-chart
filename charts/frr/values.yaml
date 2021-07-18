@@ -7,7 +7,7 @@ frr:
     bgp_asn: 65000
     bgp_listen_range: 10.206.0.0/16
 
-hostnNetwork: true
+hostNetwork: true
 containers:
   hostPort: false
   
