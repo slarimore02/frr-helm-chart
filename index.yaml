@@ -3,6 +3,16 @@ entries:
   frr:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-07-18T18:39:24.417106197Z"
+    description: A Helm chart for Kubernetes
+    digest: 8a2c3c176804bf37aafc1a23dc7b94242460ce825783083a782ebc029f87ca68
+    name: frr
+    type: application
+    urls:
+    - https://github.com/slarimore02/helm-charts/releases/download/frr-0.1.6/frr-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-07-18T18:20:19.839767216Z"
     description: A Helm chart for Kubernetes
     digest: d47448a2a24cdbce51495d615f5bbb37455407f54a922bfef0cccc406616e1ee
@@ -51,4 +61,4 @@ entries:
     urls:
     - https://github.com/slarimore02/frr-helm-chart/releases/download/frr-0.1.1/frr-0.1.1.tgz
     version: 0.1.1
-generated: "2021-07-18T18:20:19.839785816Z"
+generated: "2021-07-18T18:39:24.417136897Z"
