@@ -53,6 +53,7 @@ spec:
           volumeMounts:
           - name: frr-config-volume
             mountPath: /etc/frr
+            readOnly: false
       volumes:
         - name: frr-config-volume
           configMap:
